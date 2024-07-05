@@ -1,0 +1,7 @@
+.wraper {
+  display: flex;
+}
+
+.optionItem {
+  margin-right: 10px;
+}

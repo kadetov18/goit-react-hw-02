@@ -1,6 +1,9 @@
 .wraper {
   display: flex;
 }
+ul {
+  list-style: none;
+}
 
 .optionItem {
   margin-right: 10px;

@@ -5,19 +5,19 @@ const Feedback = ({ feedbackList, totalFeedback, positiveFeedback }) => {
   return (
     <div>
       <ul>
-        <li>
+        <li className={s.feedItem}>
           <p>Good:{feedbackList.good}</p>
         </li>
-        <li>
+        <li className={s.feedItem}>
           <p>Neutral:{feedbackList.neutral}</p>
         </li>
-        <li>
+        <li className={s.feedItem}>
           <p>Bad:{feedbackList.bad}</p>
         </li>
-        <li>
+        <li className={s.feedItem}>
           <p>Total:{totalPositive}</p>
         </li>
-        <li>
+        <li className={s.feedItem}>
           <p>Positive:{positiveFeedback()}%</p>
         </li>
       </ul>

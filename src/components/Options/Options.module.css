@@ -1,8 +1,8 @@
-.wraper {
+.wrapper {
   display: flex;
+  list-style: none;
 }
 
 .optionItem {
   margin-right: 10px;
-  list-style: none;
 }
